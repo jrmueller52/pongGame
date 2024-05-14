@@ -10,7 +10,7 @@ public class Ball {
     private MyPanel panel;
 
     public Ball(MyPanel panel){
-        posx = (int)(Math.random()*500+1);
+        posx = (int)(Math.random()*490+5);
         posy = 50;
         size = 30;
         speedx = 2;
